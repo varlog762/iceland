@@ -1,7 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import WelcomeScreen from '@/components/WelcomeScreen.vue'
+</script>
 
 <template>
-  <div></div>
+  <WelcomeScreen />
 </template>
 
 <style scoped></style>
