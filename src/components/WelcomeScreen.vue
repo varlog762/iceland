@@ -5,7 +5,22 @@ defineOptions({
 </script>
 
 <template>
-  <div>123</div>
+  <div class="root">
+    <div class="layer">
+      <div class="texts">
+        <div class="title">
+          Начните путешествие в
+          <div class="content">Исландию</div>
+          прямо сейчас
+        </div>
+      </div>
+      <img src="/images/plane.png" alt="plane" class="plane" />
+    </div>
+  </div>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.root {
+  font-family: 'Poppins';
+}
+</style>
